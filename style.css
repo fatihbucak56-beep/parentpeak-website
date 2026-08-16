@@ -637,35 +637,26 @@ h3 { font-size: 1.15rem; font-weight: 700; line-height: 1.3; }
   display: inline-block;
 }
 
-/* ─── Performance Badge ─────────────────────────────────────────────────────── */
+/* ─── Beta Count Badge ─────────────────────────────────────────────────────── */
 
-.performance-badge {
+.beta-count-badge {
   display: inline-flex;
   align-items: center;
   gap: 8px;
   padding: 6px 12px;
-  background: linear-gradient(135deg, #059669, #047857);
+  background: linear-gradient(135deg, var(--green), var(--green-dark));
   color: white;
   border-radius: 20px;
   font-size: 0.75rem;
   font-weight: 700;
-  box-shadow: 0 2px 8px rgba(5, 150, 105, 0.3);
+  box-shadow: 0 2px 8px rgba(76, 175, 80, 0.3);
 }
 
-.perf-score {
-  background: white;
-  color: #059669;
-  width: 24px;
-  height: 24px;
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 0.7rem;
-  font-weight: 900;
+.beta-count-icon {
+  font-size: 1rem;
 }
 
-.perf-label {
+.beta-count-text {
   white-space: nowrap;
 }
 
