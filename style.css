@@ -940,3 +940,104 @@ h3 { font-size: 1.15rem; font-weight: 700; line-height: 1.3; }
     grid-template-columns: 1fr;
   }
 }
+/* ═══════════════════════════════════════════════════════════════════════════
+   ParentPeak — Additional Styles (replaces inline styles)
+   Append these to the end of style.css
+   ═══════════════════════════════════════════════════════════════════════════ */
+
+/* ─── Philosophie Section — Extracted from inline styles ──────────────────── */
+
+.philosophie-approach-title {
+  margin-top: 28px;
+  margin-bottom: 16px;
+}
+
+.philosophie-summary-box {
+  margin-top: 28px;
+  padding: 20px;
+  background: linear-gradient(135deg, #F0FDF4, #ECFDF5);
+  border-radius: 16px;
+  border: 1px solid #BBF7D0;
+}
+
+.philosophie-summary-box__title {
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.philosophie-summary-box__body {
+  font-size: 1.1rem;
+  line-height: 1.8;
+}
+
+.philosophie-summary-box__footer {
+  margin-top: 12px;
+  color: #6B7280;
+}
+
+/* ─── Skip to content (Accessibility) ────────────────────────────────────── */
+
+.skip-link {
+  position: absolute;
+  top: -100%;
+  left: 16px;
+  z-index: 9999;
+  padding: 12px 24px;
+  background: var(--green);
+  color: white;
+  border-radius: 8px;
+  font-weight: 700;
+  text-decoration: none;
+  transition: top 0.2s ease;
+}
+
+.skip-link:focus {
+  top: 16px;
+}
+
+/* ─── Noscript fallback ───────────────────────────────────────────────────── */
+
+.noscript-banner {
+  background: #FEF3C7;
+  color: #92400E;
+  padding: 12px 24px;
+  text-align: center;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+/* ─── Reduced motion preference ───────────────────────────────────────────── */
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+
+  .phone-mockup {
+    animation: none;
+  }
+
+  .hero-bg {
+    animation: none;
+  }
+
+  [data-anim] {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+/* ─── Focus visible (Keyboard Navigation) ────────────────────────────────── */
+
+:focus-visible {
+  outline: 3px solid var(--green);
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
+a:focus:not(:focus-visible),
+button:focus:not(:focus-visible) {
+  outline: none;
+}
