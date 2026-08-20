@@ -12,7 +12,7 @@
 
 ## Überblick
 
-Marketing-Website für [Parentpeak](https://github.com/fatihbucak56-beep/Parentpeak) — die Familien-App für Eltern. Statische Single-Page mit modernem Design, Scroll-Animationen und responsive Layout.
+Marketing-Website für [Parentpeak](https://github.com/arambucak/Parentpeak) — die Familien-App für Eltern. Statische Single-Page mit modernem Design, Scroll-Animationen und responsive Layout.
 
 **Live:** [parentpeak.com](https://parentpeak.com)
 
@@ -80,8 +80,8 @@ Custom Domain: `parentpeak.com` (CNAME konfiguriert)
 
 | Repo | Beschreibung |
 |------|-------------|
-| [Parentpeak](https://github.com/fatihbucak56-beep/Parentpeak) | Flutter App (Haupt-Repository) |
-| [parentpeak-website](https://github.com/fatihbucak56-beep/parentpeak-website) | Dieses Repo — Landing Page |
+| [Parentpeak](https://github.com/arambucak/Parentpeak) | Flutter App (Haupt-Repository) |
+| [parentpeak-website](https://github.com/arambucak/parentpeak-website) | Dieses Repo — Landing Page |
 
 ---
 
